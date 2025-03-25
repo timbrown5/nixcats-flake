@@ -150,7 +150,7 @@
               cmp_luasnip
               cmp-nvim-lsp
               cmp-path
-              catppuccin
+              catppuccin-nvim
               todo-comments-nvim
               mini-nvim
               nvim-treesitter.withAllGrammars

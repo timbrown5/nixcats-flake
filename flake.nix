@@ -186,6 +186,10 @@
               nvim-web-devicons
               plenary-nvim
             ];
+            # personal categories.
+            obsidian-nvim = [
+              obsidian-nvim
+            ];
           };
 
           # not loaded automatically at startup.
@@ -271,6 +275,9 @@
               kickstart-debug = true;
               kickstart-lint = true;
               kickstart-indent_line = true;
+
+              # personal
+              obsidian-nvim = true;
 
               # this kickstart extra didnt require any extra plugins
               # so it doesnt have a category above.

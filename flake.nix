@@ -39,8 +39,6 @@
     # https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html#examples
 
   };
-
-  # see :help nixCats.flake.outputs
   outputs =
     {
       self,
@@ -153,6 +151,7 @@
               catppuccin-nvim
               todo-comments-nvim
               mini-nvim
+              toggleterm-nvim
               nvim-treesitter.withAllGrammars
               # This is for if you only want some of the grammars
               # (nvim-treesitter.withPlugins (

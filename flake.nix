@@ -153,6 +153,13 @@
               mini-nvim
               toggleterm-nvim
               nvim-treesitter.withAllGrammars
+
+              # Snippets - extensions.
+              nvim-scissors # Tool to ease creating personal snippets.
+              friendly-snippets # A library of helpful snippets.
+
+              snipe-nvim # Quickly move to open buffers.
+
               # This is for if you only want some of the grammars
               # (nvim-treesitter.withPlugins (
               #   plugins: with plugins; [

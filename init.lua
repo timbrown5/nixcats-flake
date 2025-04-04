@@ -892,7 +892,7 @@ require('nixCatsUtils.lazyCat').setup(nixCats.pawsible { 'allPlugins', 'start', 
     priority = 1000, -- Make sure to load this before all the other start plugins.
     init = function()
       -- Load the colorscheme here.
-      vim.cmd.colorscheme 'catppuccin.macchiato'
+      vim.cmd.colorscheme 'catppuccin-macchiato'
 
       -- You can configure highlights by doing something like:
       vim.cmd.hi 'Comment gui=none'

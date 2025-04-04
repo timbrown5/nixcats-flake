@@ -196,6 +196,9 @@
             obsidian-nvim = [
               obsidian-nvim
             ];
+            snacks = [
+              snacks-nvim
+            ];
           };
 
           # not loaded automatically at startup.
@@ -284,6 +287,7 @@
 
               # personal
               obsidian-nvim = true;
+              snacks-nvim = true;
 
               # this kickstart extra didnt require any extra plugins
               # so it doesnt have a category above.
@@ -291,7 +295,7 @@
               kickstart-gitsigns = true;
 
               # we can pass whatever we want actually.
-              have_nerd_font = false;
+              have_nerd_font = true;
 
               example = {
                 youCan = "add more than just booleans";

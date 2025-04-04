@@ -31,6 +31,22 @@ return {
         path = "~/gdrive/Obsidian/Professional",
       },
     },
+    mappings = {
+      -- Toggle check-boxes.
+      ["<leader>ch"] = {
+        action = function()
+          return require("obsidian").util.toggle_checkbox()
+        end,
+        opts = { buffer = true },
+      },
+      -- Smart action depending on context, either follow link or toggle checkbox.
+      ["<cr>"] = {
+        action = function()
+          return require("obsidian").util.smart_action()
+        end,
+        opts = { buffer = true, expr = true },
+      },
+    },
 
     -- see this link for full list:
     -- https://github.com/epwalsh/obsidian.nvim?tab=readme-ov-file#configuration-options

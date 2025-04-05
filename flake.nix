@@ -124,6 +124,10 @@
             kickstart-lint = [
               markdownlint-cli
             ];
+            extras = with pkgs; [
+              luajitPackages.luarocks-nix
+              gnumake
+            ];
           };
 
           # This is for plugins that will load at startup without using packadd:
@@ -199,6 +203,7 @@
             snacks = [
               snacks-nvim
             ];
+            extras = [ ];
           };
 
           # not loaded automatically at startup.
@@ -288,6 +293,8 @@
               # personal
               obsidian-nvim = true;
               snacks-nvim = true;
+
+              extras = true;
 
               # this kickstart extra didnt require any extra plugins
               # so it doesnt have a category above.

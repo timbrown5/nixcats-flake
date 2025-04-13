@@ -29,6 +29,7 @@ return {
         python = { "isort", "black" },
         javascript = { "prettierd", "prettier", stop_after_first = true },
         css = { "prettierd", "prettier", stop_after_first = true },
+        nix = { "nixfmt" },
       },
       lang_to_formatters = {
         json = { "jq" },

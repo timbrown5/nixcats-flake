@@ -157,13 +157,6 @@
               mini-nvim
               toggleterm-nvim
               nvim-treesitter.withAllGrammars
-
-              # Snippets - extensions.
-              nvim-scissors # Tool to ease creating personal snippets.
-              friendly-snippets # A library of helpful snippets.
-
-              snipe-nvim # Quickly move to open buffers.
-
               # This is for if you only want some of the grammars
               # (nvim-treesitter.withPlugins (
               #   plugins: with plugins; [
@@ -171,6 +164,13 @@
               #     lua
               #   ]
               # ))
+
+              # Snippets - extensions.
+              nvim-scissors # Tool to ease creating personal snippets.
+              friendly-snippets # A library of helpful snippets.
+
+              snipe-nvim # Quickly move to open buffers.
+              nvim-colorizer-lua # HTML color previewer.
             ];
             kickstart-debug = [
               nvim-dap
@@ -273,7 +273,10 @@
               wrapRc = true;
               # IMPORTANT:
               # your alias may not conflict with your other packages.
-              aliases = [ "vim" ];
+              aliases = [
+                "vim"
+                "vi"
+              ];
               # neovim-unwrapped = inputs.neovim-nightly-overlay.packages.${pkgs.system}.neovim;
             };
             # and a set of categories that you want
@@ -318,7 +321,7 @@
           };
       };
       # In this section, the main thing you will need to do is change the default package name
-      # to the name of the packageDefinitions entry you wish to use as the default.
+      # to the name of the packageDef:wqliasinitions entry you wish to use as the default.
       defaultPackageName = "nvim";
     in
 

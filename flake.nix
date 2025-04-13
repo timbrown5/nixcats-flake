@@ -170,7 +170,7 @@
               friendly-snippets # A library of helpful snippets.
 
               snipe-nvim # Quickly move to open buffers.
-              nvim-colorizer-lua # HTML color previewer.
+              nvim-highlight-colors # Live HTML/CSS color preview.
             ];
             kickstart-debug = [
               nvim-dap

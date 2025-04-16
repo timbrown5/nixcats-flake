@@ -6,7 +6,7 @@ vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
 vim.opt.foldtext = ""
 
 -- How many levels deep should folder be available. After this the code will be folded as a block.
-vim.opt.foldnestmax = 6
+vim.opt.foldnestmax = 10
 -- When a file starts, sections that are indented more than this will be folded.
 vim.opt.foldlevelstart = 5
 

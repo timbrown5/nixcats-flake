@@ -171,6 +171,7 @@
 
               snipe-nvim # Quickly move to open buffers.
               nvim-colorizer-lua # HTML color previewer.
+              transparent-nvim # Make Neovim transparent.
             ];
             kickstart-debug = [
               nvim-dap
